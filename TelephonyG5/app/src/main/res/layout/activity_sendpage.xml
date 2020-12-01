@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg2"
+    android:padding="30dp"
+    android:orientation="vertical"
+    tools:context=".Sendpage">
+
+    <EditText
+        android:id="@+id/editPhone"
+        android:paddingBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30sp"
+        android:layout_marginBottom="80dp"
+        android:hint="Enter Phone Number"
+        android:textColor="#00008b"
+        android:textColorHint="#00008b" />
+
+    <EditText
+        android:id="@+id/editMessage"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:hint="Type your message here"
+        android:textColorHint="#00008b"
+        android:gravity="top"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:onClick="btnSend"
+        android:text="SEND"
+        app:backgroundTint="#25A3B3" />
+
+
+</LinearLayout>
